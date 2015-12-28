@@ -130,11 +130,11 @@ namespace Vixen.Export
                     _padding = null;
                 }
             }
-            catch (Exception e)
+            catch (Exception  )
             {
                 _outfs = null;
                 _dataOut = null;
-                throw e;
+                throw ;
             }
         }
 
@@ -157,7 +157,7 @@ namespace Vixen.Export
                 {
                     _dataOut = null;
                     _outfs = null;
-                    throw e;
+                    throw ;
                 }
             }
 
@@ -179,11 +179,11 @@ namespace Vixen.Export
                     _outfs = null;
 
                 }
-                catch (Exception e)
+                catch (Exception )
                 {
                     _dataOut = null;
                     _outfs = null;
-                    throw e;
+                    throw ;
                 }
             }
         }

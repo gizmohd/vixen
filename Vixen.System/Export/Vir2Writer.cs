@@ -47,11 +47,11 @@ namespace Vixen.Export
                 _outfs = File.Create(_sessionData.OutFileName, _sessionData.ChannelNames.Count * 2, FileOptions.None);
                 _dataOut = new BinaryWriter(_outfs);
             }
-            catch (Exception e)
+            catch (Exception )
             {
                 _outfs = null;
                 _dataOut = null;
-                throw e;
+                throw ;
             }
 
             _periodData = new Byte[sessionData.ChannelNames.Count * _sessionData.NumPeriods];
@@ -82,7 +82,7 @@ namespace Vixen.Export
                     _dataOut.Write(Environment.NewLine.ToCharArray());
                 }
             }
-            catch (Exception e)
+            catch (Exception )
             {
                 _dataOut.Flush();
                 _dataOut.Close();
@@ -90,7 +90,7 @@ namespace Vixen.Export
                 _outfs.Close();
                 _outfs = null;
 
-                throw e;
+                throw ;
             }
 
             if (_dataOut != null)

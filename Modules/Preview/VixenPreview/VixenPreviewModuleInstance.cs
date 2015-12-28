@@ -54,10 +54,11 @@ namespace VixenModules.Preview.VixenPreview
 		{
 			get
 			{
-				if (base.ModuleData == null) {
+				if (base.ModuleData == null)
+				{
 					base.ModuleData = new VixenPreviewData();
 					Logging.Warn("VixenPreview: access of null ModuleData. Creating new one. (Thread ID: " +
-					                            System.Threading.Thread.CurrentThread.ManagedThreadId + ")");
+												System.Threading.Thread.CurrentThread.ManagedThreadId + ")");
 				}
 				return base.ModuleData;
 			}
@@ -69,10 +70,11 @@ namespace VixenModules.Preview.VixenPreview
 
 		public bool UseGDIPreviewRendering
 		{
-			get {
-				 
+			get
+			{
+
 				// if (new Properties.Settings().UseGDIRendering)
-					return true;
+				return true;
 
 				// return !Vixen.Sys.VixenSystem.VersionBeyondWindowsXP;
 			}
@@ -83,7 +85,7 @@ namespace VixenModules.Preview.VixenPreview
 			Execution.NodesChanged += ExecutionNodesChanged;
 			VixenSystem.Contexts.ContextCreated += ProgramContextCreated;
 			VixenSystem.Contexts.ContextReleased += ProgramContextReleased;
- 
+
 			SetupPreviewForm();
 
 			return (Form)displayForm;
@@ -92,7 +94,8 @@ namespace VixenModules.Preview.VixenPreview
 		private object formLock = new object();
 		private void SetupPreviewForm()
 		{
-			lock (formLock) {
+			lock (formLock)
+			{
 
 				if (UseGDIPreviewRendering)
 				{
@@ -140,11 +143,19 @@ namespace VixenModules.Preview.VixenPreview
 			if (disposing)
 			{
 				if (displayForm != null)
+				{
 					displayForm.Close();
+					displayForm.Dispose();
+				}
+				if (setupForm != null)
+				{
+					setupForm.Close();
+					setupForm.Dispose();
+				}
 				VixenSystem.Contexts.ContextCreated -= ProgramContextCreated;
-				VixenSystem.Contexts.ContextReleased -= ProgramContextReleased;	
+				VixenSystem.Contexts.ContextReleased -= ProgramContextReleased;
 			}
-			
+
 			base.Dispose(disposing);
 		}
 
@@ -163,7 +174,8 @@ namespace VixenModules.Preview.VixenPreview
 			//
 			// This is always null... why does this event get called?
 			//
-			if (programContext != null) {
+			if (programContext != null)
+			{
 				//_programContexts.Add(programContext);
 				programContext.ProgramStarted += ProgramContextProgramStarted;
 				programContext.ProgramEnded += ProgramContextProgramEnded;
@@ -193,7 +205,8 @@ namespace VixenModules.Preview.VixenPreview
 		private void ProgramContextReleased(object sender, ContextEventArgs contextEventArgs)
 		{
 			var programContext = contextEventArgs.Context as IProgramContext;
-			if (programContext != null) {
+			if (programContext != null)
+			{
 				programContext.ProgramStarted -= ProgramContextProgramStarted;
 				programContext.ProgramEnded -= ProgramContextProgramEnded;
 				programContext.SequenceStarted -= context_SequenceStarted;
@@ -205,7 +218,8 @@ namespace VixenModules.Preview.VixenPreview
 		protected override void Update()
 		{
 			var sw = Stopwatch.StartNew();
-			try {
+			try
+			{
 				// displayForm.Scene.ElementStates = ElementStates;
 				//if the Preview form style changes re-setup the form
 				//if ((UseGDIPreviewRendering && !isGdiVersion) || (!UseGDIPreviewRendering && isGdiVersion) || displayForm == null) {
@@ -222,10 +236,11 @@ namespace VixenModules.Preview.VixenPreview
 				//	if (UseOldPreview)
 				//		((VixenPreviewDisplay)displayForm).PreviewControl.ProcessUpdateParallel(/*ElementStates*/);
 				//	else
-					displayForm.UpdatePreview();
+				displayForm.UpdatePreview();
 				//}
 			}
-			catch (Exception e) {
+			catch (Exception e)
+			{
 				Logging.Error("Exception in preview update {0} - {1}", e.Message, e.StackTrace);
 				//Console.WriteLine(e.ToString());
 			}
