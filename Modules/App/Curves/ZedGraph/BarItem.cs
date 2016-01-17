@@ -36,7 +36,7 @@ namespace ZedGraph
 	/// <author> John Champion </author>
 	/// <version> $Revision: 3.27 $ $Date: 2007-11-03 04:41:28 $ </version>
 	[Serializable]
-	public class BarItem : CurveItem, ICloneable, ISerializable
+	public class BarItem : CurveItem, ICloneable, ISerializable 
 	{
 		#region Fields
 
@@ -456,6 +456,21 @@ namespace ZedGraph
 			}
 
 			return false;
+		}
+
+		#endregion
+
+		#region IDisposable Members
+
+	 
+		protected override void Dispose(bool disposing)
+		{
+			if (disposing)
+			{
+				if (_bar != null) _bar.Dispose();
+
+			}
+			base.Dispose(disposing);
 		}
 
 		#endregion

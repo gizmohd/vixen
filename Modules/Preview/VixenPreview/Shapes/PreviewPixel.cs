@@ -216,7 +216,7 @@ namespace VixenModules.Preview.VixenPreview.Shapes
 			}
         }
         
-		protected void Dispose(bool disposing)
+		protected virtual void Dispose(bool disposing)
 		{
 			if (disposing) {
 				if (brush != null)

@@ -13,9 +13,16 @@
 		/// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
 		protected override void Dispose(bool disposing)
 		{
-			if (disposing && (components != null))
+			if (disposing)
 			{
-				components.Dispose();
+				if (components != null)
+				{
+					components.Dispose();
+				}
+			}
+			else
+			{
+				Shape.OnPropertiesChanged -= OnPropertiesChanged;
 			}
 			base.Dispose(disposing);
 		}
@@ -89,8 +96,8 @@
 			// 
 			// panel5
 			// 
-			this.panel5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+			this.panel5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+			| System.Windows.Forms.AnchorStyles.Right)));
 			this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.panel5.Controls.Add(this.buttonHelp);
 			this.panel5.Location = new System.Drawing.Point(0, 0);
@@ -116,8 +123,8 @@
 			// 
 			// panel4
 			// 
-			this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+			this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+			| System.Windows.Forms.AnchorStyles.Right)));
 			this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.panel4.Controls.Add(this.label5);
 			this.panel4.Controls.Add(this.label12);
@@ -193,8 +200,8 @@
 			// 
 			// trackBarBaseHeight
 			// 
-			this.trackBarBaseHeight.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+			this.trackBarBaseHeight.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+			| System.Windows.Forms.AnchorStyles.Right)));
 			this.trackBarBaseHeight.Location = new System.Drawing.Point(7, 275);
 			this.trackBarBaseHeight.Maximum = 300;
 			this.trackBarBaseHeight.Minimum = 1;
@@ -244,8 +251,8 @@
 			// 
 			// trackBarTopWidth
 			// 
-			this.trackBarTopWidth.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+			this.trackBarTopWidth.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+			| System.Windows.Forms.AnchorStyles.Right)));
 			this.trackBarTopWidth.Location = new System.Drawing.Point(10, 233);
 			this.trackBarTopWidth.Maximum = 500;
 			this.trackBarTopWidth.Minimum = 1;
@@ -295,8 +302,8 @@
 			// 
 			// trackBarTopHeight
 			// 
-			this.trackBarTopHeight.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+			this.trackBarTopHeight.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+			| System.Windows.Forms.AnchorStyles.Right)));
 			this.trackBarTopHeight.Location = new System.Drawing.Point(10, 191);
 			this.trackBarTopHeight.Maximum = 200;
 			this.trackBarTopHeight.Minimum = 1;
@@ -309,8 +316,8 @@
 			// 
 			// trackBarPixelSize
 			// 
-			this.trackBarPixelSize.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+			this.trackBarPixelSize.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+			| System.Windows.Forms.AnchorStyles.Right)));
 			this.trackBarPixelSize.Location = new System.Drawing.Point(11, 23);
 			this.trackBarPixelSize.Maximum = 10;
 			this.trackBarPixelSize.Minimum = 1;
@@ -346,8 +353,8 @@
 			// 
 			// trackBarLightsPerString
 			// 
-			this.trackBarLightsPerString.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+			this.trackBarLightsPerString.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+			| System.Windows.Forms.AnchorStyles.Right)));
 			this.trackBarLightsPerString.Location = new System.Drawing.Point(10, 149);
 			this.trackBarLightsPerString.Maximum = 300;
 			this.trackBarLightsPerString.Minimum = 1;
@@ -360,8 +367,8 @@
 			// 
 			// trackBarDegrees
 			// 
-			this.trackBarDegrees.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+			this.trackBarDegrees.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+			| System.Windows.Forms.AnchorStyles.Right)));
 			this.trackBarDegrees.Location = new System.Drawing.Point(11, 65);
 			this.trackBarDegrees.Maximum = 360;
 			this.trackBarDegrees.Minimum = 90;
@@ -397,8 +404,8 @@
 			// 
 			// trackBarStringCount
 			// 
-			this.trackBarStringCount.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+			this.trackBarStringCount.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+			| System.Windows.Forms.AnchorStyles.Right)));
 			this.trackBarStringCount.Location = new System.Drawing.Point(10, 107);
 			this.trackBarStringCount.Maximum = 120;
 			this.trackBarStringCount.Minimum = 4;
@@ -411,8 +418,8 @@
 			// 
 			// panel3
 			// 
-			this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+			this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+			| System.Windows.Forms.AnchorStyles.Right)));
 			this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.panel3.Controls.Add(this.label6);
 			this.panel3.Controls.Add(this.comboBoxStringType);
@@ -447,8 +454,8 @@
 			// 
 			// panel2
 			// 
-			this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+			this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+			| System.Windows.Forms.AnchorStyles.Right)));
 			this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.panel2.Controls.Add(this.label7);
 			this.panel2.Controls.Add(this.buttonLinkElements);
