@@ -642,6 +642,12 @@ namespace VixenModules.Preview.VixenPreview {
 			ThemeComboBoxRenderer.DrawItem(sender, e);
 		}
 
+		private void btnAddCustomObject_Click(object sender, EventArgs e)
+		{
+			CustomProp.CustomPropForm frm = new CustomProp.CustomPropForm();
+			frm.Show();
+		}
+
 	}
 
 
