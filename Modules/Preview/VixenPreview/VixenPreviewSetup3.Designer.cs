@@ -29,23 +29,29 @@
 		private void InitializeComponent()
 		{
 			this.components = new System.ComponentModel.Container();
-			WeifenLuo.WinFormsUI.Docking.DockPanelSkin dockPanelSkin1 = new WeifenLuo.WinFormsUI.Docking.DockPanelSkin();
-			WeifenLuo.WinFormsUI.Docking.AutoHideStripSkin autoHideStripSkin1 = new WeifenLuo.WinFormsUI.Docking.AutoHideStripSkin();
-			WeifenLuo.WinFormsUI.Docking.DockPanelGradient dockPanelGradient1 = new WeifenLuo.WinFormsUI.Docking.DockPanelGradient();
-			WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient1 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
-			WeifenLuo.WinFormsUI.Docking.DockPaneStripSkin dockPaneStripSkin1 = new WeifenLuo.WinFormsUI.Docking.DockPaneStripSkin();
-			WeifenLuo.WinFormsUI.Docking.DockPaneStripGradient dockPaneStripGradient1 = new WeifenLuo.WinFormsUI.Docking.DockPaneStripGradient();
-			WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient2 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
-			WeifenLuo.WinFormsUI.Docking.DockPanelGradient dockPanelGradient2 = new WeifenLuo.WinFormsUI.Docking.DockPanelGradient();
-			WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient3 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
-			WeifenLuo.WinFormsUI.Docking.DockPaneStripToolWindowGradient dockPaneStripToolWindowGradient1 = new WeifenLuo.WinFormsUI.Docking.DockPaneStripToolWindowGradient();
-			WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient4 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
-			WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient5 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
-			WeifenLuo.WinFormsUI.Docking.DockPanelGradient dockPanelGradient3 = new WeifenLuo.WinFormsUI.Docking.DockPanelGradient();
-			WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient6 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
-			WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient7 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VixenPreviewSetup3));
+			WeifenLuo.WinFormsUI.Docking.DockPanelSkin dockPanelSkin2 = new WeifenLuo.WinFormsUI.Docking.DockPanelSkin();
+			WeifenLuo.WinFormsUI.Docking.AutoHideStripSkin autoHideStripSkin2 = new WeifenLuo.WinFormsUI.Docking.AutoHideStripSkin();
+			WeifenLuo.WinFormsUI.Docking.DockPanelGradient dockPanelGradient4 = new WeifenLuo.WinFormsUI.Docking.DockPanelGradient();
+			WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient8 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
+			WeifenLuo.WinFormsUI.Docking.DockPaneStripSkin dockPaneStripSkin2 = new WeifenLuo.WinFormsUI.Docking.DockPaneStripSkin();
+			WeifenLuo.WinFormsUI.Docking.DockPaneStripGradient dockPaneStripGradient2 = new WeifenLuo.WinFormsUI.Docking.DockPaneStripGradient();
+			WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient9 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
+			WeifenLuo.WinFormsUI.Docking.DockPanelGradient dockPanelGradient5 = new WeifenLuo.WinFormsUI.Docking.DockPanelGradient();
+			WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient10 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
+			WeifenLuo.WinFormsUI.Docking.DockPaneStripToolWindowGradient dockPaneStripToolWindowGradient2 = new WeifenLuo.WinFormsUI.Docking.DockPaneStripToolWindowGradient();
+			WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient11 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
+			WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient12 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
+			WeifenLuo.WinFormsUI.Docking.DockPanelGradient dockPanelGradient6 = new WeifenLuo.WinFormsUI.Docking.DockPanelGradient();
+			WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient13 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
+			WeifenLuo.WinFormsUI.Docking.TabGradient tabGradient14 = new WeifenLuo.WinFormsUI.Docking.TabGradient();
 			this.panelToolbar = new System.Windows.Forms.Panel();
+			this.panel12 = new System.Windows.Forms.Panel();
+			this.btnAddCustomObject = new System.Windows.Forms.Button();
+			this.btnDeleteCustomObject = new System.Windows.Forms.Button();
+			this.btnAddCustomObjectToPreview = new System.Windows.Forms.Button();
+			this.comboBoxCustomObjects = new System.Windows.Forms.ComboBox();
+			this.label15 = new System.Windows.Forms.Label();
 			this.panel11 = new System.Windows.Forms.Panel();
 			this.label14 = new System.Windows.Forms.Label();
 			this.toolStripUndo = new System.Windows.Forms.ToolStrip();
@@ -132,14 +138,10 @@
 			this.label9 = new System.Windows.Forms.Label();
 			this.trackerZoom = new Common.Controls.ControlsEx.ValueControls.HMiniTracker();
 			this.dockPanel = new WeifenLuo.WinFormsUI.Docking.DockPanel();
-			this.panel12 = new System.Windows.Forms.Panel();
-			this.btnAddCustomObject = new System.Windows.Forms.Button();
-			this.button2 = new System.Windows.Forms.Button();
-			this.button3 = new System.Windows.Forms.Button();
-			this.button4 = new System.Windows.Forms.Button();
-			this.comboBox1 = new System.Windows.Forms.ComboBox();
-			this.label15 = new System.Windows.Forms.Label();
+			this.contextMenuStripCustomObjects = new System.Windows.Forms.ContextMenuStrip(this.components);
+			this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.panelToolbar.SuspendLayout();
+			this.panel12.SuspendLayout();
 			this.panel11.SuspendLayout();
 			this.toolStripUndo.SuspendLayout();
 			this.panel8.SuspendLayout();
@@ -154,7 +156,7 @@
 			this.menuStrip.SuspendLayout();
 			this.panel9.SuspendLayout();
 			this.panel10.SuspendLayout();
-			this.panel12.SuspendLayout();
+			this.contextMenuStripCustomObjects.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// panelToolbar
@@ -177,15 +179,102 @@
 			this.panelToolbar.Size = new System.Drawing.Size(1276, 90);
 			this.panelToolbar.TabIndex = 7;
 			// 
+			// panel12
+			// 
+			this.panel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.panel12.Controls.Add(this.btnAddCustomObject);
+			this.panel12.Controls.Add(this.btnDeleteCustomObject);
+			this.panel12.Controls.Add(this.btnAddCustomObjectToPreview);
+			this.panel12.Controls.Add(this.comboBoxCustomObjects);
+			this.panel12.Controls.Add(this.label15);
+			this.panel12.Location = new System.Drawing.Point(808, 4);
+			this.panel12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.panel12.Name = "panel12";
+			this.panel12.Size = new System.Drawing.Size(168, 84);
+			this.panel12.TabIndex = 32;
+			// 
+			// btnAddCustomObject
+			// 
+			this.btnAddCustomObject.BackColor = System.Drawing.Color.Transparent;
+			this.btnAddCustomObject.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAddCustomObject.BackgroundImage")));
+			this.btnAddCustomObject.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.btnAddCustomObject.FlatAppearance.BorderSize = 0;
+			this.btnAddCustomObject.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+			this.btnAddCustomObject.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.btnAddCustomObject.Location = new System.Drawing.Point(137, 3);
+			this.btnAddCustomObject.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.btnAddCustomObject.Name = "btnAddCustomObject";
+			this.btnAddCustomObject.Size = new System.Drawing.Size(26, 26);
+			this.btnAddCustomObject.TabIndex = 31;
+			this.btnAddCustomObject.Tag = "";
+			this.btnAddCustomObject.UseVisualStyleBackColor = false;
+			this.btnAddCustomObject.Click += new System.EventHandler(this.btnAddCustomObject_Click);
+			// 
+			// btnDeleteCustomObject
+			// 
+			this.btnDeleteCustomObject.BackColor = System.Drawing.Color.Transparent;
+			this.btnDeleteCustomObject.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnDeleteCustomObject.BackgroundImage")));
+			this.btnDeleteCustomObject.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.btnDeleteCustomObject.FlatAppearance.BorderSize = 0;
+			this.btnDeleteCustomObject.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+			this.btnDeleteCustomObject.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.btnDeleteCustomObject.Location = new System.Drawing.Point(137, 30);
+			this.btnDeleteCustomObject.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.btnDeleteCustomObject.Name = "btnDeleteCustomObject";
+			this.btnDeleteCustomObject.Size = new System.Drawing.Size(26, 26);
+			this.btnDeleteCustomObject.TabIndex = 28;
+			this.btnDeleteCustomObject.Tag = "";
+			this.btnDeleteCustomObject.UseVisualStyleBackColor = false;
+			this.btnDeleteCustomObject.Click += new System.EventHandler(this.btnDeleteCustomObject_Click);
+			// 
+			// btnAddCustomObjectToPreview
+			// 
+			this.btnAddCustomObjectToPreview.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.btnAddCustomObjectToPreview.Image = ((System.Drawing.Image)(resources.GetObject("btnAddCustomObjectToPreview.Image")));
+			this.btnAddCustomObjectToPreview.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.btnAddCustomObjectToPreview.Location = new System.Drawing.Point(7, 32);
+			this.btnAddCustomObjectToPreview.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.btnAddCustomObjectToPreview.Name = "btnAddCustomObjectToPreview";
+			this.btnAddCustomObjectToPreview.Size = new System.Drawing.Size(124, 26);
+			this.btnAddCustomObjectToPreview.TabIndex = 30;
+			this.btnAddCustomObjectToPreview.Text = "Add to Preview";
+			this.btnAddCustomObjectToPreview.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			this.btnAddCustomObjectToPreview.UseVisualStyleBackColor = true;
+			// 
+			// comboBoxCustomObjects
+			// 
+			this.comboBoxCustomObjects.ContextMenuStrip = this.contextMenuStripCustomObjects;
+			this.comboBoxCustomObjects.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+			this.comboBoxCustomObjects.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.comboBoxCustomObjects.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.comboBoxCustomObjects.FormattingEnabled = true;
+			this.comboBoxCustomObjects.Location = new System.Drawing.Point(7, 6);
+			this.comboBoxCustomObjects.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.comboBoxCustomObjects.Name = "comboBoxCustomObjects";
+			this.comboBoxCustomObjects.Size = new System.Drawing.Size(124, 24);
+			this.comboBoxCustomObjects.TabIndex = 26;
+			this.comboBoxCustomObjects.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.comboBox_DrawItem);
+			// 
+			// label15
+			// 
+			this.label15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
+			this.label15.Dock = System.Windows.Forms.DockStyle.Bottom;
+			this.label15.Location = new System.Drawing.Point(0, 60);
+			this.label15.Name = "label15";
+			this.label15.Size = new System.Drawing.Size(166, 22);
+			this.label15.TabIndex = 0;
+			this.label15.Text = "Custom Objects";
+			this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
 			// panel11
 			// 
 			this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.panel11.Controls.Add(this.label14);
 			this.panel11.Controls.Add(this.toolStripUndo);
-			this.panel11.Location = new System.Drawing.Point(1041, 1);
-			this.panel11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+			this.panel11.Location = new System.Drawing.Point(977, 4);
+			this.panel11.Margin = new System.Windows.Forms.Padding(2);
 			this.panel11.Name = "panel11";
-			this.panel11.Size = new System.Drawing.Size(142, 84);
+			this.panel11.Size = new System.Drawing.Size(146, 84);
 			this.panel11.TabIndex = 15;
 			// 
 			// label14
@@ -194,7 +283,7 @@
 			this.label14.Dock = System.Windows.Forms.DockStyle.Bottom;
 			this.label14.Location = new System.Drawing.Point(0, 60);
 			this.label14.Name = "label14";
-			this.label14.Size = new System.Drawing.Size(140, 22);
+			this.label14.Size = new System.Drawing.Size(144, 22);
 			this.label14.TabIndex = 3;
 			this.label14.Text = "Undo/Redo";
 			this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -208,7 +297,7 @@
 			this.toolStripUndo.Location = new System.Drawing.Point(0, 0);
 			this.toolStripUndo.Name = "toolStripUndo";
 			this.toolStripUndo.Padding = new System.Windows.Forms.Padding(0, 0, 2, 0);
-			this.toolStripUndo.Size = new System.Drawing.Size(140, 25);
+			this.toolStripUndo.Size = new System.Drawing.Size(144, 25);
 			this.toolStripUndo.TabIndex = 2;
 			this.toolStripUndo.Text = "toolStrip1";
 			// 
@@ -1254,7 +1343,7 @@
 			this.panel9.Controls.Add(this.trackerZoom);
 			this.panel9.Dock = System.Windows.Forms.DockStyle.Bottom;
 			this.panel9.Location = new System.Drawing.Point(0, 617);
-			this.panel9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+			this.panel9.Margin = new System.Windows.Forms.Padding(2);
 			this.panel9.Name = "panel9";
 			this.panel9.Size = new System.Drawing.Size(1276, 32);
 			this.panel9.TabIndex = 16;
@@ -1333,7 +1422,7 @@
 			// 
 			this.trackerZoom.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
 			this.trackerZoom.Location = new System.Drawing.Point(1122, 4);
-			this.trackerZoom.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+			this.trackerZoom.Margin = new System.Windows.Forms.Padding(2);
 			this.trackerZoom.Maximum = 400;
 			this.trackerZoom.Minimum = 25;
 			this.trackerZoom.Name = "trackerZoom";
@@ -1351,154 +1440,67 @@
 			this.dockPanel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.dockPanel.Name = "dockPanel";
 			this.dockPanel.Size = new System.Drawing.Size(1276, 503);
-			dockPanelGradient1.EndColor = System.Drawing.SystemColors.ControlLight;
-			dockPanelGradient1.StartColor = System.Drawing.SystemColors.ControlLight;
-			autoHideStripSkin1.DockStripGradient = dockPanelGradient1;
-			tabGradient1.EndColor = System.Drawing.SystemColors.Control;
-			tabGradient1.StartColor = System.Drawing.SystemColors.Control;
-			tabGradient1.TextColor = System.Drawing.SystemColors.ControlDarkDark;
-			autoHideStripSkin1.TabGradient = tabGradient1;
-			autoHideStripSkin1.TextFont = new System.Drawing.Font("Segoe UI", 9F);
-			dockPanelSkin1.AutoHideStripSkin = autoHideStripSkin1;
-			tabGradient2.EndColor = System.Drawing.SystemColors.ControlLightLight;
-			tabGradient2.StartColor = System.Drawing.SystemColors.ControlLightLight;
-			tabGradient2.TextColor = System.Drawing.SystemColors.ControlText;
-			dockPaneStripGradient1.ActiveTabGradient = tabGradient2;
-			dockPanelGradient2.EndColor = System.Drawing.SystemColors.Control;
-			dockPanelGradient2.StartColor = System.Drawing.SystemColors.Control;
-			dockPaneStripGradient1.DockStripGradient = dockPanelGradient2;
-			tabGradient3.EndColor = System.Drawing.SystemColors.ControlLight;
-			tabGradient3.StartColor = System.Drawing.SystemColors.ControlLight;
-			tabGradient3.TextColor = System.Drawing.SystemColors.ControlText;
-			dockPaneStripGradient1.InactiveTabGradient = tabGradient3;
-			dockPaneStripSkin1.DocumentGradient = dockPaneStripGradient1;
-			dockPaneStripSkin1.TextFont = new System.Drawing.Font("Segoe UI", 9F);
-			tabGradient4.EndColor = System.Drawing.SystemColors.ActiveCaption;
-			tabGradient4.LinearGradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-			tabGradient4.StartColor = System.Drawing.SystemColors.GradientActiveCaption;
-			tabGradient4.TextColor = System.Drawing.SystemColors.ActiveCaptionText;
-			dockPaneStripToolWindowGradient1.ActiveCaptionGradient = tabGradient4;
-			tabGradient5.EndColor = System.Drawing.SystemColors.Control;
-			tabGradient5.StartColor = System.Drawing.SystemColors.Control;
-			tabGradient5.TextColor = System.Drawing.SystemColors.ControlText;
-			dockPaneStripToolWindowGradient1.ActiveTabGradient = tabGradient5;
-			dockPanelGradient3.EndColor = System.Drawing.SystemColors.ControlLight;
-			dockPanelGradient3.StartColor = System.Drawing.SystemColors.ControlLight;
-			dockPaneStripToolWindowGradient1.DockStripGradient = dockPanelGradient3;
-			tabGradient6.EndColor = System.Drawing.SystemColors.InactiveCaption;
-			tabGradient6.LinearGradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-			tabGradient6.StartColor = System.Drawing.SystemColors.GradientInactiveCaption;
-			tabGradient6.TextColor = System.Drawing.SystemColors.InactiveCaptionText;
-			dockPaneStripToolWindowGradient1.InactiveCaptionGradient = tabGradient6;
-			tabGradient7.EndColor = System.Drawing.Color.Transparent;
-			tabGradient7.StartColor = System.Drawing.Color.Transparent;
-			tabGradient7.TextColor = System.Drawing.SystemColors.ControlDarkDark;
-			dockPaneStripToolWindowGradient1.InactiveTabGradient = tabGradient7;
-			dockPaneStripSkin1.ToolWindowGradient = dockPaneStripToolWindowGradient1;
-			dockPanelSkin1.DockPaneStripSkin = dockPaneStripSkin1;
-			this.dockPanel.Skin = dockPanelSkin1;
+			dockPanelGradient4.EndColor = System.Drawing.SystemColors.ControlLight;
+			dockPanelGradient4.StartColor = System.Drawing.SystemColors.ControlLight;
+			autoHideStripSkin2.DockStripGradient = dockPanelGradient4;
+			tabGradient8.EndColor = System.Drawing.SystemColors.Control;
+			tabGradient8.StartColor = System.Drawing.SystemColors.Control;
+			tabGradient8.TextColor = System.Drawing.SystemColors.ControlDarkDark;
+			autoHideStripSkin2.TabGradient = tabGradient8;
+			autoHideStripSkin2.TextFont = new System.Drawing.Font("Segoe UI", 9F);
+			dockPanelSkin2.AutoHideStripSkin = autoHideStripSkin2;
+			tabGradient9.EndColor = System.Drawing.SystemColors.ControlLightLight;
+			tabGradient9.StartColor = System.Drawing.SystemColors.ControlLightLight;
+			tabGradient9.TextColor = System.Drawing.SystemColors.ControlText;
+			dockPaneStripGradient2.ActiveTabGradient = tabGradient9;
+			dockPanelGradient5.EndColor = System.Drawing.SystemColors.Control;
+			dockPanelGradient5.StartColor = System.Drawing.SystemColors.Control;
+			dockPaneStripGradient2.DockStripGradient = dockPanelGradient5;
+			tabGradient10.EndColor = System.Drawing.SystemColors.ControlLight;
+			tabGradient10.StartColor = System.Drawing.SystemColors.ControlLight;
+			tabGradient10.TextColor = System.Drawing.SystemColors.ControlText;
+			dockPaneStripGradient2.InactiveTabGradient = tabGradient10;
+			dockPaneStripSkin2.DocumentGradient = dockPaneStripGradient2;
+			dockPaneStripSkin2.TextFont = new System.Drawing.Font("Segoe UI", 9F);
+			tabGradient11.EndColor = System.Drawing.SystemColors.ActiveCaption;
+			tabGradient11.LinearGradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+			tabGradient11.StartColor = System.Drawing.SystemColors.GradientActiveCaption;
+			tabGradient11.TextColor = System.Drawing.SystemColors.ActiveCaptionText;
+			dockPaneStripToolWindowGradient2.ActiveCaptionGradient = tabGradient11;
+			tabGradient12.EndColor = System.Drawing.SystemColors.Control;
+			tabGradient12.StartColor = System.Drawing.SystemColors.Control;
+			tabGradient12.TextColor = System.Drawing.SystemColors.ControlText;
+			dockPaneStripToolWindowGradient2.ActiveTabGradient = tabGradient12;
+			dockPanelGradient6.EndColor = System.Drawing.SystemColors.ControlLight;
+			dockPanelGradient6.StartColor = System.Drawing.SystemColors.ControlLight;
+			dockPaneStripToolWindowGradient2.DockStripGradient = dockPanelGradient6;
+			tabGradient13.EndColor = System.Drawing.SystemColors.InactiveCaption;
+			tabGradient13.LinearGradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+			tabGradient13.StartColor = System.Drawing.SystemColors.GradientInactiveCaption;
+			tabGradient13.TextColor = System.Drawing.SystemColors.InactiveCaptionText;
+			dockPaneStripToolWindowGradient2.InactiveCaptionGradient = tabGradient13;
+			tabGradient14.EndColor = System.Drawing.Color.Transparent;
+			tabGradient14.StartColor = System.Drawing.Color.Transparent;
+			tabGradient14.TextColor = System.Drawing.SystemColors.ControlDarkDark;
+			dockPaneStripToolWindowGradient2.InactiveTabGradient = tabGradient14;
+			dockPaneStripSkin2.ToolWindowGradient = dockPaneStripToolWindowGradient2;
+			dockPanelSkin2.DockPaneStripSkin = dockPaneStripSkin2;
+			this.dockPanel.Skin = dockPanelSkin2;
 			this.dockPanel.TabIndex = 20;
 			// 
-			// panel12
+			// contextMenuStripCustomObjects
 			// 
-			this.panel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.panel12.Controls.Add(this.btnAddCustomObject);
-			this.panel12.Controls.Add(this.button2);
-			this.panel12.Controls.Add(this.button3);
-			this.panel12.Controls.Add(this.button4);
-			this.panel12.Controls.Add(this.comboBox1);
-			this.panel12.Controls.Add(this.label15);
-			this.panel12.Location = new System.Drawing.Point(808, 4);
-			this.panel12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-			this.panel12.Name = "panel12";
-			this.panel12.Size = new System.Drawing.Size(168, 84);
-			this.panel12.TabIndex = 32;
+			this.contextMenuStripCustomObjects.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.openToolStripMenuItem});
+			this.contextMenuStripCustomObjects.Name = "contextMenuStripCustomObjects";
+			this.contextMenuStripCustomObjects.Size = new System.Drawing.Size(95, 26);
 			// 
-			// btnAddCustomObject
+			// openToolStripMenuItem
 			// 
-			this.btnAddCustomObject.BackColor = System.Drawing.Color.Transparent;
-			this.btnAddCustomObject.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAddCustomObject.BackgroundImage")));
-			this.btnAddCustomObject.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.btnAddCustomObject.FlatAppearance.BorderSize = 0;
-			this.btnAddCustomObject.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-			this.btnAddCustomObject.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.btnAddCustomObject.Location = new System.Drawing.Point(137, 3);
-			this.btnAddCustomObject.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-			this.btnAddCustomObject.Name = "btnAddCustomObject";
-			this.btnAddCustomObject.Size = new System.Drawing.Size(26, 26);
-			this.btnAddCustomObject.TabIndex = 31;
-			this.btnAddCustomObject.Tag = "";
-			this.btnAddCustomObject.UseVisualStyleBackColor = false;
-			this.btnAddCustomObject.Click += new System.EventHandler(this.btnAddCustomObject_Click);
-			// 
-			// button2
-			// 
-			this.button2.BackColor = System.Drawing.Color.Transparent;
-			this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
-			this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button2.FlatAppearance.BorderSize = 0;
-			this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-			this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.button2.Location = new System.Drawing.Point(137, 55);
-			this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-			this.button2.Name = "button2";
-			this.button2.Size = new System.Drawing.Size(26, 26);
-			this.button2.TabIndex = 29;
-			this.button2.Tag = "";
-			this.button2.UseVisualStyleBackColor = false;
-			// 
-			// button3
-			// 
-			this.button3.BackColor = System.Drawing.Color.Transparent;
-			this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
-			this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.button3.FlatAppearance.BorderSize = 0;
-			this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-			this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.button3.Location = new System.Drawing.Point(137, 30);
-			this.button3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-			this.button3.Name = "button3";
-			this.button3.Size = new System.Drawing.Size(26, 26);
-			this.button3.TabIndex = 28;
-			this.button3.Tag = "";
-			this.button3.UseVisualStyleBackColor = false;
-			// 
-			// button4
-			// 
-			this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-			this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.button4.Location = new System.Drawing.Point(7, 32);
-			this.button4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-			this.button4.Name = "button4";
-			this.button4.Size = new System.Drawing.Size(124, 26);
-			this.button4.TabIndex = 30;
-			this.button4.Text = "Add to Preview";
-			this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			this.button4.UseVisualStyleBackColor = true;
-			// 
-			// comboBox1
-			// 
-			this.comboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-			this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.comboBox1.FormattingEnabled = true;
-			this.comboBox1.Location = new System.Drawing.Point(7, 6);
-			this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-			this.comboBox1.Name = "comboBox1";
-			this.comboBox1.Size = new System.Drawing.Size(124, 24);
-			this.comboBox1.TabIndex = 26;
-			// 
-			// label15
-			// 
-			this.label15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
-			this.label15.Dock = System.Windows.Forms.DockStyle.Bottom;
-			this.label15.Location = new System.Drawing.Point(0, 60);
-			this.label15.Name = "label15";
-			this.label15.Size = new System.Drawing.Size(166, 22);
-			this.label15.TabIndex = 0;
-			this.label15.Text = "Custom Objects";
-			this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.openToolStripMenuItem.Name = "openToolStripMenuItem";
+			this.openToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+			this.openToolStripMenuItem.Text = "&Edit";
+			this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
 			// 
 			// VixenPreviewSetup3
 			// 
@@ -1521,6 +1523,7 @@
 			this.Move += new System.EventHandler(this.VixenPreviewSetup3_Move);
 			this.Resize += new System.EventHandler(this.VixenPreviewSetup3_Resize);
 			this.panelToolbar.ResumeLayout(false);
+			this.panel12.ResumeLayout(false);
 			this.panel11.ResumeLayout(false);
 			this.panel11.PerformLayout();
 			this.toolStripUndo.ResumeLayout(false);
@@ -1541,7 +1544,7 @@
 			this.panel9.PerformLayout();
 			this.panel10.ResumeLayout(false);
 			this.panel10.PerformLayout();
-			this.panel12.ResumeLayout(false);
+			this.contextMenuStripCustomObjects.ResumeLayout(false);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -1638,11 +1641,12 @@
 		private System.Windows.Forms.ToolStripMenuItem redoToolStripMenuItem;
 		private System.Windows.Forms.Panel panel12;
 		private System.Windows.Forms.Button btnAddCustomObject;
-		private System.Windows.Forms.Button button2;
-		private System.Windows.Forms.Button button3;
-		private System.Windows.Forms.Button button4;
-		private System.Windows.Forms.ComboBox comboBox1;
+		private System.Windows.Forms.Button btnDeleteCustomObject;
+		private System.Windows.Forms.Button btnAddCustomObjectToPreview;
+		private System.Windows.Forms.ComboBox comboBoxCustomObjects;
 		private System.Windows.Forms.Label label15;
+		private System.Windows.Forms.ContextMenuStrip contextMenuStripCustomObjects;
+		private System.Windows.Forms.ToolStripMenuItem openToolStripMenuItem;
 
 	}
 }
