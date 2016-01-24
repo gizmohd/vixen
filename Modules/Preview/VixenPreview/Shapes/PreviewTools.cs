@@ -238,7 +238,8 @@ namespace VixenModules.Preview.VixenPreview.Shapes
 						item = serializer.ReadObject(reader) as DisplayItem;
 					}
 				}
-				catch {
+				catch(Exception e) {
+					Console.WriteLine(e.ToString());
 				}
 			}
 			return item;
