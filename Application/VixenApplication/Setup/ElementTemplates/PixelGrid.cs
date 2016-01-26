@@ -44,6 +44,7 @@ namespace VixenApplication.Setup.ElementTemplates
 		{
 			get { return "Pixel Grid"; }
 		}
+		public bool TemplateEnabled { get { return true; } }
 
 		public bool SetupTemplate(IEnumerable<ElementNode> selectedNodes = null)
 		{
