@@ -698,7 +698,7 @@ namespace Common.Controls.Timeline
 
 			foreach (Element elem in elements)
 			{
-				if (elem.Row.SelectedElements.Count() > 4)
+				if (elem.Row.SelectedElements.Count() > 32)
 					return false;
 			}
 			return true;
