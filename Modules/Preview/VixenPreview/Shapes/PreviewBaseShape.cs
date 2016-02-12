@@ -128,13 +128,14 @@ namespace VixenModules.Preview.VixenPreview.Shapes
 			}
 		}
 
+	 
 		[DataMember,
 		 Browsable(false)]
 		public virtual List<PreviewPixel> Pixels
 		{
 			get
 			{
-				if (_strings != null && _strings.Count > 0)
+				if (_strings != null && _strings.Count > 0 )
 				{
 					List<PreviewPixel> outPixels = new List<PreviewPixel>();
 					foreach (PreviewBaseShape line in _strings)
@@ -144,14 +145,20 @@ namespace VixenModules.Preview.VixenPreview.Shapes
 							outPixels.Add(pixel);
 						}
 					}
-					return outPixels.ToList();
+				 
+					return outPixels;
 				}
 				else
 				{
+
 					return _pixels;
 				}
 			}
-			set { _pixels = value; }
+			set
+			{
+				_pixels = value;
+			 
+			}
 		}
 
 		[Browsable(false)]
