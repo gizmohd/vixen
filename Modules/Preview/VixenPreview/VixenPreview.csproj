@@ -146,6 +146,12 @@
     <Compile Include="Shapes\CustomProp\AddMultipleChannels.Designer.cs">
       <DependentUpon>AddMultipleChannels.cs</DependentUpon>
     </Compile>
+    <Compile Include="Shapes\CustomProp\PropNaming.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shapes\CustomProp\PropNaming.Designer.cs">
+      <DependentUpon>PropNaming.cs</DependentUpon>
+    </Compile>
     <Compile Include="Shapes\CustomProp\ChannelNaming.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -399,6 +405,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Shapes\CustomProp\AddMultipleChannels.resx">
       <DependentUpon>AddMultipleChannels.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shapes\CustomProp\PropNaming.resx">
+      <DependentUpon>PropNaming.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Shapes\CustomProp\ChannelNaming.resx">
       <DependentUpon>ChannelNaming.cs</DependentUpon>
